@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reaction Speed Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="game-container">
+    <h1>Reaction Speed Challenge</h1>
+
+    <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+    </select>
+
+    <p id="status">Click Start and wait for the box.</p>
+    <button id="startBtn">Start Game</button>
+
+    <div id="box"></div>
+
+    <p id="result"></p>
+    <p id="bestScore">Best Time: -- ms</p>
+</div>
+
+<audio id="clickSound" src="C:\Users\Dell\Documents\project game\clicksound.m4a"></audio>
+<audio id="failSound" src="C:\Users\Dell\Documents\project game\failsound.m4a"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
